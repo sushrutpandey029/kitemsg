@@ -31,7 +31,7 @@ const server = app.listen(process.env.PORT, () =>
 
 const io = socket(server, {
   cors: {
-    origin: "https://kitemsg.herokuapp.com",
+    origin: "https://kitesocketserver.onrender.com",
     credentials: true,
   },
   
